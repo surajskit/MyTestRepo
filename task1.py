@@ -98,3 +98,15 @@ list1 = [5,7,9,4,2,1]
 sorting = list1.sort()
 print(sorting)
 print(list1)
+
+# Change Dictionary Items
+country_capitals = {
+  "Germany": "Berlin", 
+  "Italy": "Naples", 
+  "England": "London"
+}
+
+# change the value of "Italy" key to "Rome"
+country_capitals["Italy"] = "Rome"
+
+print(country_capitals)
