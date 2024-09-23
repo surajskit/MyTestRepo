@@ -110,3 +110,12 @@ country_capitals = {
 country_capitals["Italy"] = "Rome"
 
 print(country_capitals)
+
+# Changes after setup remote repo
+def greet():
+    print('Hello World!')
+
+# call the function
+greet()
+
+print('Outside function')
